@@ -5,6 +5,7 @@ Use this folder for exploratory work and visuals.
 Suggested first notebook name:
 
 - 01_qubit_basics.ipynb
+- 02_gate_intuition.ipynb
 
 Notebook tips:
 

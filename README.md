@@ -52,6 +52,10 @@ Windows (PowerShell):
 
 - `src/01_qubit_basics.py`: First runnable Qiskit lesson.
 - `exercises/01_qubit_basics.md`: Guided prompts for Lesson 01.
+- `src/02_gate_intuition.py`: Gate intuition drills for X, Z, CX, and CCX.
+- `exercises/02_gate_intuition.md`: Guided prompts for Lesson 02.
+- `notebooks/01_qubit_basics.ipynb`: Explanations and code for Lesson 01.
+- `notebooks/02_gate_intuition.ipynb`: Explanations and code for Lesson 02.
 - `notebooks/README.md`: Notebook conventions and naming suggestion.
 - `requirements.txt`: Initial Python dependencies.
 
@@ -83,6 +87,20 @@ Windows (PowerShell):
 
 ## Next Steps
 
-- Add Lesson 02 focused on multi-gate circuits (X, Z, and CX intuition drills).
+- Run Lesson 02 focused on multi-gate circuits (X, Z, CX, CCX drills).
 - Add simple plotting/visualization for count distributions.
 - Add beginner algorithm modules (Deutsch-Jozsa first).
+
+## Move To Exercise 02
+
+1. Run the second lesson script:
+
+	python src/02_gate_intuition.py
+
+2. Work through the guided exercise:
+
+	open exercises/02_gate_intuition.md
+
+3. Use the companion notebook:
+
+	notebooks/02_gate_intuition.ipynb

@@ -29,17 +29,26 @@ def to_probabilities(counts: dict[str, int]) -> dict[str, float]:
 
 def single_qubit_h(shots: int = 1024) -> dict[str, int]:
     """Create a superposition with H, then measure one qubit."""
+    # QuantumCircuit(num_qubits, num_classical_bits)
     circuit = QuantumCircuit(1, 1)
+    # Apply H to qubit index 0 (the only qubit in this circuit).
     circuit.h(0)
+    # Measure qubit 0 and store the result in classical bit 0.
+    # Indices must be in range or Qiskit raises an index error.
     circuit.measure(0, 0)
     return run_circuit(circuit, shots=shots)
 
 
 def bell_state(shots: int = 1024) -> dict[str, int]:
     """Create a Bell state using H + CX and measure both qubits."""
+    # This circuit has 2 qubits and 2 classical bits.
     circuit = QuantumCircuit(2, 2)
+    # Put qubit 0 into superposition.
     circuit.h(0)
+    # Controlled-X: qubit 0 is control and qubit 1 is target.
     circuit.cx(0, 1)
+    # Measure qubits [0, 1] into classical bits [0, 1] one-to-one.
+    # All listed indices must exist in their respective registers.
     circuit.measure([0, 1], [0, 1])
     return run_circuit(circuit, shots=shots)
 
