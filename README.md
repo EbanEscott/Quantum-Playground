@@ -33,7 +33,7 @@ Windows (PowerShell):
 ### 2) Install dependencies
 
 	python -m pip install --upgrade pip
-	pip install qiskit jupyter matplotlib
+	pip install -r requirements.txt
 
 ### 3) Sanity check installation
 
@@ -47,6 +47,27 @@ Windows (PowerShell):
 	├── exercises/       # Practice tasks and solutions
 	├── assets/          # Images/plots used in docs
 	└── README.md
+
+## Current Starter Content
+
+- `src/01_qubit_basics.py`: First runnable Qiskit lesson.
+- `exercises/01_qubit_basics.md`: Guided prompts for Lesson 01.
+- `notebooks/README.md`: Notebook conventions and naming suggestion.
+- `requirements.txt`: Initial Python dependencies.
+
+## Start Learning Now
+
+1. Run the first lesson script:
+
+	python src/01_qubit_basics.py
+
+2. Work through the guided exercise:
+
+	open exercises/01_qubit_basics.md
+
+3. Optional: Create your first notebook in `notebooks/`:
+
+	01_qubit_basics.ipynb
 
 ## First Exercises
 
@@ -62,5 +83,6 @@ Windows (PowerShell):
 
 ## Next Steps
 
-- Add a `notebooks/` folder with a first notebook: "01_qubit_basics.ipynb".
-- Add a `requirements.txt` once dependencies stabilize.
+- Add Lesson 02 focused on multi-gate circuits (X, Z, and CX intuition drills).
+- Add simple plotting/visualization for count distributions.
+- Add beginner algorithm modules (Deutsch-Jozsa first).
