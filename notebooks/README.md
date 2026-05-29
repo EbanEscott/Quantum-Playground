@@ -6,6 +6,7 @@ Suggested first notebook name:
 
 - 01_qubit_basics.ipynb
 - 02_gate_intuition.ipynb
+- 03_interference_basics.ipynb
 
 Notebook tips:
 

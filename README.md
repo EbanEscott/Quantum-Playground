@@ -56,8 +56,14 @@ Windows (PowerShell):
 - `exercises/02_gate_intuition.md`: Guided prompts for Lesson 02.
 - `notebooks/01_qubit_basics.ipynb`: Explanations and code for Lesson 01.
 - `notebooks/02_gate_intuition.ipynb`: Explanations and code for Lesson 02.
+- `src/03_interference_basics.py`: Interference drills (phase to measurement intuition).
+- `exercises/03_interference_basics.md`: Guided prompts for Lesson 03.
+- `notebooks/03_interference_basics.ipynb`: Explanations and code for Lesson 03.
 - `notebooks/README.md`: Notebook conventions and naming suggestion.
 - `requirements.txt`: Initial Python dependencies.
+- `terminology.md`: Quick glossary of core quantum terms.
+- `foundation_math.md`: Fundamentals refresher (algebra, vectors, matrices, probability).
+- `qantum_math.md`: Quantum-focused math formulas used in lessons.
 
 ## Start Learning Now
 
@@ -87,7 +93,7 @@ Windows (PowerShell):
 
 ## Next Steps
 
-- Run Lesson 02 focused on multi-gate circuits (X, Z, CX, CCX drills).
+- Run Lesson 03 focused on interference and basis changes.
 - Add simple plotting/visualization for count distributions.
 - Add beginner algorithm modules (Deutsch-Jozsa first).
 
@@ -104,3 +110,17 @@ Windows (PowerShell):
 3. Use the companion notebook:
 
 	notebooks/02_gate_intuition.ipynb
+
+## Move To Exercise 03
+
+1. Run the third lesson script:
+
+	python src/03_interference_basics.py
+
+2. Work through the guided exercise:
+
+	open exercises/03_interference_basics.md
+
+3. Use the companion notebook:
+
+	notebooks/03_interference_basics.ipynb
