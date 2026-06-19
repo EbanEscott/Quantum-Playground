@@ -6,7 +6,7 @@ This glossary covers the main terms used in Exercises 01 to 03.
 
 - Qubit: The basic unit of quantum information. A 2-level quantum system.
 - Basis states: Standard computational states |0> and |1>.
-- Ket notation: A state label written like |psi>.
+- Ket notation: A state label written like |psi>. 
 - State vector: Vector form of a qubit state, often written as [alpha, beta]^T.
 - Superposition: A state like alpha|0> + beta|1>, where both basis components are present.
 - Amplitude: The coefficient (alpha or beta) attached to a basis state.
