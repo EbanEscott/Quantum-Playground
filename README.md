@@ -59,6 +59,9 @@ Windows (PowerShell):
 - `src/03_interference_basics.py`: Interference drills showing how phase becomes measurable.
 - `exercises/03_interference_basics.md`: Guided prompts for Exercise 03.
 - `notebooks/03_interference_basics.ipynb`: Explanations and code for Exercise 03.
+- `src/04_statevector_amplitudes.py`: Statevector inspections that connect amplitudes to counts.
+- `exercises/04_statevector_amplitudes.md`: Guided prompts for Exercise 04.
+- `notebooks/04_statevector_amplitudes.ipynb`: Explanations and code for Exercise 04.
 - `quantum_programming.md`: Mental model for quantum programming from a software engineering point of view.
 - `terminology.md`: Quick glossary of core quantum terms.
 - `foundation_math.md`: Fundamentals refresher for algebra, vectors, matrices, and probability.
@@ -113,7 +116,7 @@ Why it matters: interference is the mechanism that lets quantum algorithms make 
 
 Goal: Look at the quantum state before measurement.
 
-Planned tasks:
+Main tasks:
 
 - Inspect statevectors for H, X, Z, H-Z, and H-Z-H circuits.
 - Compare amplitudes with final measurement counts.
